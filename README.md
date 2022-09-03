@@ -1,5 +1,7 @@
 README
 
+- config is done and recommended to be done via `direnv` and `.envrc` file https://direnv.net/
+
 - setting up a live reload instance:
     - use the vscode live reload server https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
     - check the setting `use web extension`
