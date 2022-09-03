@@ -1,3 +1,7 @@
 __pycache__/
 .direnv
 .envrc
+static/output.css
+dist/
+node_modules/
+
