@@ -4,4 +4,4 @@ __pycache__/
 static/output.css
 dist/
 node_modules/
-
+uwsgi.ini
