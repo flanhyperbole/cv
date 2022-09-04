@@ -3,7 +3,6 @@ from flask import render_template
 
 
 app = Flask(__name__)
-app.debug = True
 
 # register all blueprints
 from blueprints.home import home
