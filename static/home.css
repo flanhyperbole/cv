@@ -9,19 +9,43 @@
     background-size: auto 100%;
 }
 
+@keyframes text-in {
+    0%  {
+        opacity: 0;
+        right: -100vw;
+    }
+    70% { 
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        right: 0;
+    }
+    
+}
+
 .headline {
+
     font-family: 'Oswald';
     position: relative;
     padding: 1rem;
     text-align: right;
     font-size: 4rem;
+    
+    right: -200vw;
+    
+    animation-name: text-in;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
 }
 
 .nametext {
     text-align: center;
+    animation-delay: 0s;
 }
 
 .subtext {
     position: absolute;
     bottom: 0;
+    animation-delay: 1s;
 }

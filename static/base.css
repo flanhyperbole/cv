@@ -28,7 +28,15 @@
          url('./fonts/open-sans-v34-latin-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
 
+:root {
+    --lt-purple: #B1A1E2;
+    --lt-orange: #E2B1A1;
+    --lt-green: #A1E2B1;
 
+    --v-black: #000000;
+    --v-white: #FFFFFF;
+    --v-greey: #CCCCCC;
+}
 
 .page {
     position: fixed;
@@ -39,5 +47,7 @@
     height: 100%;
     margin: 0;
     padding: 0;
+
+    color: var(--v-black);
 }
 
